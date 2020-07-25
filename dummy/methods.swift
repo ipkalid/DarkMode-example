@@ -29,9 +29,7 @@ extension UIViewController{
          self.tabBarController?.tabBar.overrideUserInterfaceStyle = .dark
          self.navigationController?.navigationBar.overrideUserInterfaceStyle = .dark
         
-//        var preferredStatusBarStyle: UIStatusBarStyle {
-//                return .darkContent
-//        }
+
          
         //self.navigationController? = .dark
         self.setNeedsStatusBarAppearanceUpdate()
@@ -47,10 +45,7 @@ extension UIViewController{
          self.navigationController?.navigationBar.overrideUserInterfaceStyle = .light
         
         //self.navigationController?.childForStatusBarStyle?.overrideUserInterfaceStyle = .light
-//        
-//        var preferredStatusBarStyle: UIStatusBarStyle {
-//                return .lightContent
-//        }
+
         
         self.setNeedsStatusBarAppearanceUpdate()
 
